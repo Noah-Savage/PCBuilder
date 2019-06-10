@@ -18,7 +18,7 @@ time.sleep(2)
 #Print out final product, depending on what type of storage they have
 if (storage2 is ""):
     print("Fantastic! You have a", cpu, "with", ramQ, "GB of RAM running at", ramS, ".")
-    print("For your games you paired your ", cpu, "with a", gpu, "through a(n)", mobo, "all hooked up to a", psu, ".")
+    print("For your games you paired your ", cpu, "with a", gpu, "through a(n)", mobo, "all powered by a", psu, ".")
     print("To store it all, you use a", storage1, "all wrapped up in a ", case, "!")
 else:
     print("Fantastic! You have a", cpu, "with ", ramQ, "GB of RAM running at ", ramS, ".")
